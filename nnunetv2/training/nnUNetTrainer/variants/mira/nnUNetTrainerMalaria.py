@@ -1,7 +1,7 @@
-from typing import Union, Tuple, List
 from dynamic_network_architectures.building_blocks.helper import get_matching_batchnorm
-import torch
 from nnunetv2.training.nnUNetTrainer.nnUNetTrainer import nnUNetTrainer
+from typing import Union, Tuple, List
+import torch
 
 
 class nnUNetTrainerMalaria(nnUNetTrainer):
